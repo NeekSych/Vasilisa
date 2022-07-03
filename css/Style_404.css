@@ -1,0 +1,143 @@
+*{
+    margin: 0 ;
+    font-weight: 300;
+    box-sizing: border-box; 
+}
+:focus{
+    outline: none;
+}
+.container{
+    margin: auto;
+    max-width: 1146px;
+    /*outline: 1px solid #666;*/
+}
+.header{
+    background:  #FF5C5C;
+}
+ header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.header-li > a{
+    text-decoration: none;
+    padding: 0px 24px 0px 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #842727;
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.header-ic{
+    padding: 0px 10px 0 10px;
+}
+.header-button{
+    text-decoration: none;
+    border: 21px;
+    border-color: #000;
+    
+}
+.header-li > a:hover,
+.header-li > a:focus
+{
+    color: #fff;
+    ;
+}
+.btn:active{
+    color:#842727;
+    border: none;
+}
+.btn:hover,
+.btn:focus{
+    border: 0;
+    padding: 9px 52px;
+}
+
+
+
+.main-404{
+    background: #FF5C5C;
+    background-image: url(../img/404_image.png);
+    max-height: 657px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main-404 > .container{
+    
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 206px;
+    }
+
+.main-preview{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #842727;
+}
+h1{
+    margin-left:163px;
+    font-family: 'Prata', serif;
+    font-weight: 300;
+    font-size: 170px;
+    line-height: 230px;
+    color:#fff;
+    }
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #842727;
+}
+.main-descr{
+    margin-bottom: 36px;
+    max-width: 53%;
+}
+.btn{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:#fff;
+    padding: 7px 50px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+
+}
+
+.footer{
+    background: url(../img/wood.png) center center no-repeat black;
+    text-align: center;
+}
+.footer > .container{
+    max-width: 220px;
+}
+h3{
+    padding: 37px 0px 25px 0px;
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    color:#fff;
+    
+}
+.callus{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:#fff;
+    
+}
+.footer-list{
+    padding: 37px 0px 25px 0px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
